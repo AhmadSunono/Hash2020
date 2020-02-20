@@ -7,8 +7,34 @@ import java.util.ArrayList;
 
 public class Main {
 	
+//	public void sendToTimeline(Libary lib, Timeline timeline, ArrayList<Book> books) {
+//		
+//		int i;
+//		boolean flag = false;
+//		for(i=0 ; i <timeline.numOfDays; i++) {
+//			if(timeline.signingUp.get(i)==false) {
+//				break;
+//			}
+//		}
+//			
+//			for(int j=i; j<lib.signUpDayas+i; j++) {
+//				if(j == timeline.numOfDays)
+//					flag=true;
+//				if(flag==true) break
+//				timeline.signingUp.set(j, true);
+//			}
+//			for(int k=lib.signUpDayas+i; k<lib.books.size();k++) {
+////				timeline.days.get(k).booksToday.add(books.get());
+//				if(flag==true) break;
+//
+//				
+//			}
+//		}
+	
+	
 
 	public static void main(String[] args) throws IOException {
+	
 		
 		ArrayList<Libary> libaries = new ArrayList<Libary>();
 
@@ -43,6 +69,7 @@ public class Main {
 			Libary lib = new Libary();
 			lib.dailyBooks = dailyBooks;
 			lib.signUpDayas = tmpSignup;
+			lib.id = i;
 			
 			
 			
@@ -57,9 +84,7 @@ public class Main {
 		
 		
 
-//		for(int i=0; i<libaries.size(); i++) {
-//			System.out.println(libaries.get(i).books.size());
-//		}
+		
 
 		
 		bufferedReader.close();
