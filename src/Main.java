@@ -1,30 +1,16 @@
+<<<<<<< HEAD
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
+=======
+>>>>>>> branch 'master' of https://github.com/AhmadSunono/Hash2020.git
 
 public class Main {
-	
-	public static int potato() throws IOException{
-		
-//		BufferedReader bufferedReader = new BufferedReader(new FileReader("a_example.in"));
-//		BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter("out1.txt"));
-//		
-//		bufferedReader.readLine();
-//		
-//		
-//		bufferedWriter.write("potato");
-//		bufferedWriter.newLine();
-//		
-//		
-//		bufferedReader.close();
-//		bufferedWriter.close();
 
-		return 0;
-	}
-
+<<<<<<< HEAD
 	public static void main(String[] args) throws IOException {
 
 		BufferedReader bufferedReader = new BufferedReader(new FileReader("a_example.txt"));
@@ -59,6 +45,10 @@ public class Main {
 
 		
 		
+=======
+	public static void main(String[] args) {
+		System.out.println("Potato!");		
+>>>>>>> branch 'master' of https://github.com/AhmadSunono/Hash2020.git
 	}
 
 }
